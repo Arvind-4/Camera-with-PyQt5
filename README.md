@@ -21,17 +21,15 @@ source scripts/activate
 
 ```
 cd /path/to/folder/camera
-mkdir src
-cd src
 git clone https://github.com/Arvind-4/Camera-with-PyQt5.git .
-pip install -r requirements.txt
+pip install -r requirements/requirements.txt
 ```
 
 ### Step 3: Run the Code
 
 ```
-cd /path/to/folder/camera/src
-python main.py
+cd /path/to/folder/camera
+python src/main.py
 ```
 
 
